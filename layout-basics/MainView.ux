@@ -1,0 +1,18 @@
+<App>
+	<!-- <Rectangle Fill="Black" Width="100" Height="100" Alignment="TopLeft" /> -->
+	<!-- pixel이 다른 곳에서도 똑같은 크기로 표시된다.  px를 붙이게되면 pixel에 따라서 적용된다. %로 하면 정확히 화면의 비율로 표시된다.-->
+	<!-- <Rectangle Fill="Black" Margin="10"></Rectangle> -->
+	<!-- <StackPanel Orientation="Vertical" Padding="10" Margin="10">
+		<Text TextAlignment="Center" Margin="10">Some text</Text>
+		<Button Text="the button"></Button>
+		<Slider></Slider>
+		<Switch></Switch>
+	</StackPanel> -->
+	<DockPanel Padding="10">
+		<Text Dock="Right">Some text</Text>
+		<Button Text="the button" Dock="Top" Margin="10"></Button>
+		<Slider Dock="Left"></Slider>
+		<Switch></Switch>
+	</DockPanel>
+	
+</App>
