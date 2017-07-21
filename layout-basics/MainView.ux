@@ -14,5 +14,5 @@
 		<Slider Dock="Left"></Slider>
 		<Switch></Switch>
 	</DockPanel>
-	
+	 
 </App>

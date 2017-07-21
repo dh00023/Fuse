@@ -135,5 +135,22 @@ public partial class MainView: Fuse.App
         var temp14 = new global::FuseJS.Bundle();
         var temp15 = new global::FuseJS.FileReaderImpl();
         var temp16 = new global::FuseJS.UserEvents();
+        var temp17 = new global::Fuse.Controls.DockPanel();
+        var temp18 = new global::Fuse.Controls.Text();
+        var temp19 = new global::Fuse.Controls.Button();
+        var temp20 = new global::Fuse.Controls.Slider();
+        var temp21 = new global::Fuse.Controls.Switch();
+        temp17.Padding = float4(10f, 10f, 10f, 10f);
+        temp17.Children.Add(temp18);
+        temp17.Children.Add(temp19);
+        temp17.Children.Add(temp20);
+        temp17.Children.Add(temp21);
+        temp18.Value = "Some text";
+        global::Fuse.Controls.DockPanel.SetDock(temp18, Fuse.Layouts.Dock.Right);
+        temp19.Text = "the button";
+        temp19.Margin = float4(10f, 10f, 10f, 10f);
+        global::Fuse.Controls.DockPanel.SetDock(temp19, Fuse.Layouts.Dock.Top);
+        global::Fuse.Controls.DockPanel.SetDock(temp20, Fuse.Layouts.Dock.Left);
+        this.Children.Add(temp17);
     }
 }
