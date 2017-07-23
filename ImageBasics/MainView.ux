@@ -1,0 +1,17 @@
+<App>
+	<DockPanel>
+		<StatusBarBackground Dock="Top"/>
+		<BottomBarBackground Dock="Bottom" />
+
+		<!-- <FileImageSource File="Assets/logo.png" ux:Global="testpattern" />
+		<StackPanel>
+			<Image Source="testpattern" />
+			<Image Source="testpattern" />	
+		</StackPanel> -->
+		<Image Width="256" Height="128">
+			<MultiDensityImageSource>
+				<FileImageSource File="Assets/logo.png" Density="1" />
+			</MultiDensityImageSource>
+		</Image>
+	</DockPanel>
+</App>
